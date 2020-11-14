@@ -13,7 +13,7 @@ class App {
     }
 
     routes(){
-        this.server.use('/api',routes);
+        this.server.use('/',routes);
     }
  
 }
